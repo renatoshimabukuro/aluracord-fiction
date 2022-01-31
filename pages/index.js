@@ -27,7 +27,7 @@ export default function PaginaInicial() {
   //  const username = 'RenatoShimabukuro';
   const [username, setUsername] = React.useState("RenatoShimabukuro");
   const roteamento = useRouter();
-console.log(roteamento)
+  console.log(roteamento)
   return (
     <>
       <Box
